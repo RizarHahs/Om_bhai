@@ -1,0 +1,247 @@
+/* css reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background: url('aa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: antiquewhite;
+}
+.left {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.left img {
+    height: 109px;
+    width: 107px;
+}
+.mid {
+    width: 50%;
+    margin: 60px auto;
+    position: fixed;
+    top:0px;
+    right: 260px;
+}
+.navbarr li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 26px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgb(211, 29, 16);
+    position:relative;
+    z-index:4;
+}
+.navbarr li a {
+    color: rgb(95, 111, 141);
+    text-decoration: none;
+}
+.navbarr li:hover,
+.navbarr li:active {
+    text-decoration: underline;
+    color: rgb(46, 45, 45);
+}
+.activated:hover,
+.activated:active {
+    text-decoration: underline;
+    color: rgb(46, 45, 45);
+}
+.right {
+    position: absolute;
+    right: 16px;
+    top: 9px;
+    display: inline-block;
+}
+.right img {
+    mix-blend-mode: multiply;
+    height: 80px;
+    width: 200px;
+    padding-left: 30px;
+    position:sticky;
+}
+.img img {
+    position: absolute;
+    top: 860px;
+    width: 20%;
+    padding-left: 300px;
+    padding-right:700px;
+    margin: 60px auto;
+    background-color:black;
+    z-index:-6;
+}
+.p-heading {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.navbarr section {
+    display: inline-block;
+}
+.social_media {
+    display: inline-block;
+    top: 100px;
+    left: 60px;
+    padding-top: 100px;
+}
+.aboutt {
+    padding-top: 200px;
+}
+.container1 {
+    border: 2px solid blanchedalmond;
+    position: absolute;
+    right: 60px;
+    top: 1100px;
+    color:aqua;
+    background-color: black;
+    z-index:-5;
+}
+.des {
+    border: 2px solid burlywood;
+    position: absolute;
+    z-index:-3;
+    display: inline-block;
+    top:900px;
+    margin:20px;
+    font-family:Lobster,sans-serif;
+  font-weight:400;
+  font-style: normal;
+  color:aqua;
+  background-color: rgb(6, 6, 6);
+}
+#services p{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.des div i span {
+    display: inline-block;
+}
+.services-bolck{
+display: inline-block;
+padding:30px;
+}
+.cnt1{
+    background-color: black;
+}
+ .cnt1 img{
+    width:20%;
+    position: absolute;
+    top:1300px;
+    right:0px;
+} 
+.cnt1 h1{
+    right:500px;
+    top:1250px;
+}
+ .abcdefgh {
+    text-align: center;
+    color: rgb(11, 11, 11);
+    background-color:antiquewhite; 
+     display:inline;
+     position: absolute;
+     top:900px;
+     right:500px;
+     text-decoration:underline;
+     z-index:-8;
+ }  
+.b img{
+    right:300px;
+    top:1000px;
+}
+.c img{
+    right:600px;
+    top:1500px;
+    position:absolute;
+    z-index:-1;
+}
+.d img{
+ right:900px;
+ top:1600px;   
+}
+.e img{
+right:600px;
+top:2000px;
+position:absolute;
+    z-index:-2;
+}
+.f img{
+    right:300px;
+    top:2100px;
+    position:absolute;
+    z-index:-3;
+}
+.g img{
+    right:0px;
+    top:2200px;
+}
+.table {
+    display: inline-block;
+    position:absolute;
+    top:2600px;
+    padding:30px;
+    margin:60px;
+    padding-left:100px;
+    background-color: aqua;
+    border:2px solid black;
+}
+.contact{
+    position: absolute;
+display:inline-block;
+top:2700px;
+right:60px;
+border:2px solid black;
+padding:20px;
+margin:20px;
+background-color: aqua; 
+} 
+.contact input{
+display:block;
+}
+#about{
+    background-color:aliceblue;
+}
+.contact-1 a{
+border:2px solid black;
+padding:50px;
+display: inline-block;
+position: absolute;
+top:500px;
+margin:20px;
+}
+.img-responsive{
+    background-color:black;
+}
+#services{
+    background-color:black;
+}
+.insta{
+top:500px;
+}
+.h1{
+    display: inline-block;
+    position: absolute;
+    top:840px;
+    right:500px;
+    text-decoration:underline;
+    color:black;
+    z-index:-7 ;
+}
+.h1 h1{
+    background-color:blanchedalmond;
+}
+.b{
+    position: relative;
+    z-index:-1;
+}
